@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rounded{
+    border-radius: 10px;
+}
+.but_outline{
+    padding: 5px 25px;
+border-radius: 30px;
+outline: none;
+border: 1px solid #0048ff;
+background: white;
+/* background: linear-gradient(269deg,#0048ff,#0096ff); */
+color: #0048ff;
+}
+.but_outline:hover{
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+color: white;
+border: none;
+}
+.active{
+background: linear-gradient(269deg,#0048ff,#0096ff);
+color: white;
+border: none;
+}
+.flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.text-center{
+    text-align: center;
+}
+.color-white{
+    color: white;
+}
+.text-bold{
+    font-weight: bold;
+}
+
+.text-sm{
+    font-size: 0.8rem;
+}
+.text-md{
+    font-size: 1rem;
+}
+.text-lg{
+    font-size: 1.2rem;
+}
+.text-xl{
+    font-size: 1.6rem;
+}
+.text-3xl{
+    font-size: 2rem;
+}
+.header_nav{
+    margin: 0px 8%;
+}
+.nav_title{
+    color: blue;
+}
+.button_style{
+padding: 8px 25px;
+border-radius: 30px;
+outline: none;
+border: none;
+background: linear-gradient(269deg,#0048ff,#0096ff);
+color: white;
+font-weight: bold;
+}
+.footer{
+    background-color: #172146;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
